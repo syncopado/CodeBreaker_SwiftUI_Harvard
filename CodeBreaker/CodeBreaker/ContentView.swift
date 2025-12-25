@@ -7,15 +7,21 @@
 
 import SwiftUI
 
+/// Comment sample from option + click, displayed at the top
+///
+/// This displays the Overview
 struct ContentView: View {
-    var body: some View {
+    
+    var i: Int = 0
+    var s: String = "Hello"
+    
+    var body: some View {       // computed property
         VStack {
             Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello Tanga!")
+            Text("Hello Banana!")
+            Circle()
+            
         }
-        .padding()
     }
 }
 
